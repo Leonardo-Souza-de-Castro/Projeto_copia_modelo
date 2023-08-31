@@ -1,0 +1,180 @@
+body{
+    background-color: lightgray;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    border: 3px solid indigo;
+}
+
+.titulo{
+    color: darkgreen;
+    font-size: 35px;
+}
+
+.img_banner_1{
+    width: 15%;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 49px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+.links_menu{
+    text-transform: uppercase;
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container_intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p_intro{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: indigo;
+}
+
+.conteiner_livro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.livro_1{
+    width: 15%;
+}
+
+.livro_2{
+    width: 17%;
+}
+
+.livro_3{
+    width: 15%;
+}
+
+.container_apr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+.box_frame{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iframe_1{
+    width: 30%;
+    height: 270px;
+}
+
+.container_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 390px;
+    justify-content: space-around;
+}
+
+table{
+    border: 2px dashed red;
+    width: 85%;
+    height: 15vh;
+}
+
+th,td{
+    border: 1px solid red;
+    text-align: center;
+}
+
+th{
+    color: red;
+}
+
+.box_table{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_consulta{
+    background-color: yellow;
+    width: 45%;
+}
+
+.box_sites{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.item{
+    text-transform: uppercase;
+}
+
+.link_consulta{
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.paragrafo_3{
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+}
+
+.img_footer{
+    width: 13%;
+}
+
+.img_footer_1{
+    width: 10%;
+}
